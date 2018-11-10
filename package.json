@@ -8,13 +8,15 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "generate:production": "nuxt generate && del -f dist/admin"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
+    "del-cli": "^1.1.0",
     "nodemon": "^1.11.0"
   }
 }
