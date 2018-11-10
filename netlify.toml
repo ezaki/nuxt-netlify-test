@@ -1,6 +1,3 @@
 [build]
   publish = "dist"
   command = "npm run generate"
-
-[context.production]
-  command = "npm run generate:production"

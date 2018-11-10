@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const DeleteAdminPlugin = require('./DeleteAdminPlugin')
 
 module.exports = {
   mode: 'universal',
@@ -39,6 +40,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '@/modules/removeAdmin'
   ],
 
   /*
@@ -49,7 +51,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }
