@@ -1,5 +1,4 @@
 const pkg = require('./package')
-const DeleteAdminPlugin = require('./DeleteAdminPlugin')
 
 module.exports = {
   mode: 'universal',
